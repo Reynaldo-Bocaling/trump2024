@@ -10,7 +10,7 @@ const HowToBuy = () => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 1.5 }}
-        className="w-full bg-blurry mx-auto py-4 md:py-12 md:px-9"
+        className="max-w-full w-full bg-blurry mx-auto py-4 md:py-12 md:px-9 overflow-x-hidden"
       >
         <div className="">
           <motion.h1
@@ -29,22 +29,22 @@ const HowToBuy = () => {
             initial={{ x: 0, opacity: 0 }}
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 1.5, delay: 2.2 }}
-            className="text-white text-sm md:text-2xl py-3"
+            className="text-white text-xs md:text-2xl py-3 "
           >
             CONTRACT ADDRESS :{" "}
-            <span className="text-[#0dffef] font-semibold">
-              0X0S9S9F97D79FHSDSDSDSDS0DSDJSDSD9S99
+            <span className="text-[#0dffef] text-xs font-medium text-wrap ">
+              0X0S9S9F97D79FHSDSDSDSDS0DSDS0
             </span>
           </motion.p>
           <motion.p
             initial={{ x: 0, opacity: 0 }}
             whileInView={{ x: [-100, 0], opacity: [0, 1] }}
             transition={{ duration: 1.5, delay: 2.5 }}
-            className="text-white text-sm md:text-2xl py-3"
+            className="text-white text-xs md:text-2xl py-3"
           >
             BITCOIN on BASE:{" "}
-            <span className="text-[#0dffef] font-semibold">
-              0x2XSD7DD8999DD7SSS8SS88CCNSSKSSS7
+            <span className="text-[#0dffef] font-medium">
+              0x2XSD7DD8999DD7SSS8SS88CCDSDS0
             </span>
           </motion.p>
           <motion.p
