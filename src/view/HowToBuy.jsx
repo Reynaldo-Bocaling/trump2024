@@ -32,8 +32,8 @@ const HowToBuy = () => {
             className="text-white text-xs md:text-2xl py-3 "
           >
             CONTRACT ADDRESS :{" "}
-            <span className="text-[#0dffef] text-xs font-medium text-wrap ">
-              0X0S9S9F97D79FHSDSDSDSDS0DSDS0
+            <span className="text-[#0dffef] font-medium text-wrap ">
+              0X0000000000000000
             </span>
           </motion.p>
           <motion.p

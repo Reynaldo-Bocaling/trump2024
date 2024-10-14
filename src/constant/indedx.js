@@ -4,7 +4,7 @@ export const hwoToBuy = [
   "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 ];
 
-export const tokenomics = ["85% LP", "10% TREASURY", "5% usdt WALLET"];
+export const tokenomics = ["0/0 Tax", "Liquidity Burnt", "Contract Renounced"];
 
 export const gallery = [
   "/img/img1.jpg",
