@@ -56,11 +56,11 @@ const About = () => {
               impedit.
             </span>
           </motion.p>
-          <img
+          {/* <img
             src="/imgs/banner2.PNG"
             className="w-full mt-7 absolute left-2 bottom-0 md:static"
             alt=""
-          />
+          /> */}
         </div>
 
         <Marquee direction="right" className="absolute bottom-7">
