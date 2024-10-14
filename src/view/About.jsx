@@ -14,7 +14,7 @@ const About = () => {
         >
           ABOUT TRUMP
         </motion.h1>
-        <div className="about max-w-7xl mx-auto">
+        <div className="about md:max-w-7xl w-full mx-auto ">
           <motion.img
             initial={{ y: 0, opacity: 0 }}
             whileInView={{
@@ -36,7 +36,7 @@ const About = () => {
               opacity: [0, 1],
             }}
             transition={{ duration: 1, delay: 1 }}
-            className="text-white text-xl m-auto"
+            className="text-white text-xl m-auto mb-8"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
             ducimus voluptatum voluptate aperiam incidunt, eligendi fuga est
@@ -56,7 +56,13 @@ const About = () => {
               impedit.
             </span>
           </motion.p>
+          <img
+            src="/imgs/banner2.PNG"
+            className="w-full mt-7 absolute left-2 bottom-0 md:static"
+            alt=""
+          />
         </div>
+
         <Marquee direction="right" className="absolute bottom-7">
           {Array.from({ length: 100 }, (_, i) => (
             <p
