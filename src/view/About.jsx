@@ -12,7 +12,7 @@ const About = () => {
           transition={{ duration: 1.5 }}
           className="gradient-text text-[1.5em] md:text-[3em] font-title text-4xl text-white font-bold py-7 text-center"
         >
-          ABOUT THE TOKEN
+          ABOUT TRUMP
         </motion.h1>
         <div className="about max-w-7xl mx-auto">
           <motion.img
