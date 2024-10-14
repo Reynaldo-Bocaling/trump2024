@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Tokenomics = () => {
   return (
-    <section className="relative z-20 pt-12 pb-20">
-      <div className=" container mx-auto w-full flex flex-col gap-4">
+    <section className="relative z-20 pt-12 p-5 mb-5">
+      <div className="bg-blurry container mx-auto w-full flex flex-col gap-4">
         <motion.h1
           initial={{ x: 0, opacity: 0 }}
           whileInView={{

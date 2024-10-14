@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="relative z-20">
-      <div className="relative max-w-full mx-auto py-4">
+    <section id="about" className="relative z-20 p-5">
+      <div className="relative max-w-full container bg-blurry mx-auto py-4">
         <motion.h1
           initial={{ x: 0, opacity: 0 }}
           whileInView={{ y: [100, 0], scale: [0, 1], opacity: [0, 1] }}

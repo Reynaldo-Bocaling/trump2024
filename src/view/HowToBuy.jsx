@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const HowToBuy = () => {
   return (
-    <section id="howtobuy" className="relative z-20">
+    <section id="howtobuy" className="relative z-20 p-5">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 1.5 }}
-        className="max-w-[80%] mx-auto py-4"
+        className="container bg-blurry mx-auto py-4"
       >
         <div className="">
           <motion.h1
