@@ -5,7 +5,7 @@ import { socials } from "../constant/indedx";
 const Contact = () => {
   return (
     <section id="contact" className="relative z-20 p-5">
-      <div className="container bg-blurry mx-auto flex items-end justify-between pt-12">
+      <div className=" bg-blurry mx-auto flex items-end justify-between pt-12">
         <div className="flex-1 flex flex-col items-center justify-center gap-5  pb-12 px-2">
           <motion.img
             initial={{ y: 0, opacity: 0 }}
