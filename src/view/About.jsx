@@ -73,6 +73,12 @@ const About = () => {
           alt=""
         />
       </div>
+
+      <img
+        src={window.innerWidth < 768 ? "/imgs/mobile.jpg" : "/img/bodyBg.jpg"}
+        className=" absolute w-full h-full top-0 left-0"
+        alt=""
+      />
       <div className="neon-line"></div>
     </section>
   );

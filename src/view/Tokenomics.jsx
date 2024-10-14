@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const Tokenomics = () => {
   return (
-    <section className="relative z-20 pt-12 p-5 mb-5">
-      <div className="bg-blurry  mx-auto w-full flex flex-col gap-4 md:py-12 md:px-9 overflow-x-hidden">
+    <section className="relative z-20  p-5 mb-5s">
+      <div className="bg-blurry  mx-auto w-full flex flex-col gap-4 md:py-12 md:px-9 relative z-20">
         <motion.h1
           initial={{ x: 0, opacity: 0 }}
           whileInView={{
@@ -34,6 +34,12 @@ const Tokenomics = () => {
           ))}
         </ul>
       </div>
+      <img
+        src={window.innerWidth < 768 ? "/imgs/mobile.jpg" : "/img/bodyBg.jpg"}
+        className=" absolute w-full h-full top-0 left-0"
+        alt=""
+      />
+      <div className="neon-line"></div>s
     </section>
   );
 };

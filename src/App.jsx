@@ -18,11 +18,6 @@ const App = () => {
       <Tokenomics />
       <Contact />
       {/* <Photo /> */}
-      <img
-        src={window.innerWidth < 768 ? "/imgs/mobile.jpg" : "/img/bodyBg.jpg"}
-        className=" fixed w-full h-full top-0 left-0"
-        alt=""
-      />
     </main>
   );
 };

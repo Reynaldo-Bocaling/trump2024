@@ -5,7 +5,7 @@ import { socials } from "../constant/indedx";
 const Contact = () => {
   return (
     <section id="contact" className="relative z-20 p-5">
-      <div className=" bg-blurry mx-auto flex items-end justify-between pt-12 overflow-x-hidden">
+      <div className=" bg-blurry mx-auto flex items-end justify-between pt-12  relative z-20">
         <div className="flex-1 flex flex-col items-center justify-center gap-5  pb-12 px-2">
           <motion.img
             initial={{ y: 0, opacity: 0 }}
@@ -41,7 +41,7 @@ const Contact = () => {
               <a
                 href={item.url}
                 key={index}
-                className="w-16 h-16 relative flex items-center justify-center  bg-[#72ff0d] overflow-hidden rounded-full"
+                className="w-16 h-16 relative flex items-center justify-center  bg-[#72ff0d] z-20 rounded-full"
               >
                 <img
                   src={item.img}
@@ -65,6 +65,11 @@ const Contact = () => {
       <img
         src="/imgs/logo2.png"
         className="hidden w-[12rem] absolute md:-bottom-3 md:-right-12 md:flex"
+        alt=""
+      />
+      <img
+        src={window.innerWidth < 768 ? "/imgs/mobile.jpg" : "/img/bodyBg.jpg"}
+        className=" absolute w-full h-full top-0 left-0"
         alt=""
       />
     </section>
